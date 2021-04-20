@@ -1,0 +1,73 @@
+
+\documentclass[10pt,fleqn]{article}	
+\usepackage{listings}
+\usepackage{amsmath}
+\usepackage{geometry}
+\geometry{margin=20mm}
+
+\title {\textbf{Intersection de deux segments du plan}}
+\date {}
+\author {Ulysse DURAND}
+
+\lstset{language=Python}
+
+
+\begin{document}
+\maketitle
+Soient A, B, M des points du plan. \\
+$M=(x,y)$ $A=(x_A,y_A)$ $B=(x_B,y_B)$\\
+M appartient au segment $ [AB] $ si et seulement si $ \overrightarrow{AM}$ et $\overrightarrow{AB}$ sont colin\'eaires.\\
+soit il existe t tel que $(x-x_A,y-y_A)=t\cdot(x_B-x_A,y_B-y_A)$\\
+alors on a
+\[[AB]:\left\{\begin{array}{r c l}
+x &=& x_A+t(x_B-x_A)\\
+y &=& y_A+t(y_B-y_A)\\
+t &\in& [0,1]
+\end{array}\right.\]
+
+de m\^eme, pour C et D des points du plan,
+\[[CD]:\left\{\begin{array}{r c l}
+x &=& x_C+t'(x_D-x_C)\\
+y &=& y_C+t'(y_D-y_C)\\
+t' &\in& [0,1]
+\end{array}\right.\]
+
+Ensuite, M appartient au segment $[AB]$ si et seulement si \\
+il existe $t,t' \in [0,1]$ tels que
+\[\left\{\begin{array}{r c l}
+x_A+t(x_B-x_A) &=& x_C+t'(x_D-x_C)\\
+y_A+t(y_B-y_A) &=& y_C+t'(y_D-y_C)
+\end{array}\right.\]
+
+\[\iff\left\{\begin{array}{r c l}
+t(x_B-x_A)+t'(x_C-x_D) &=& x_C-x_A\\
+t(y_B-y_A)+t'(y_C-y_D) &=& y_C-y_A
+\end{array}\right.\]
+
+\[\iff\begin{pmatrix}
+	x_B-x_A & x_C-x_D\\
+	y_B-y_A & y_C-y_D
+\end{pmatrix}
+\begin{pmatrix}t\\t'\end{pmatrix}
+=\begin{pmatrix}x_C-x_A\\y_C-y_A\end{pmatrix}\]
+
+
+\[\iff\begin{pmatrix}t\\t'\end{pmatrix}=
+\frac{1}{(x_B-x_A)(y_C-y_D)-(x_C-x_D)(y_B-y_A)}
+\begin{pmatrix}
+	y_C-y_D & x_D-x_C\\
+	y_A-y_B & x_B-x_A
+\end{pmatrix}
+\begin{pmatrix}
+	x_C-x_A\\
+	y_C-y_A
+\end{pmatrix}
+\]
+Pour conclure, $[AB]$ et $[CD]$ s'intersectent si et seulement si\\
+$(x_B-x_A)(y_C-y_D)-(x_C-x_D)(y_B-y_A)\neq 0$ \\et t, t' tels que d\'efinis ci-dessus sont dans $[0,1]$\\
+Alors les coordon\'ees de M sont donn\'ees par l'equation de $[AB]$ ou $[CD]$
+
+
+
+
+\end{document}}
