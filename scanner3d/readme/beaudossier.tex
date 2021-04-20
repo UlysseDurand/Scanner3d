@@ -164,7 +164,12 @@ en $\mathcal{O}(n+m)$.
 \subparagraph{Création du fichier .obj à partir des coupes de S}
 
 On veut relier les différentes coupes entre elles pour en faire un
-fichier .obj, donc faire une surface triangularisée.
+fichier .obj, donc faire une surface triangularisée.\\
+Idée : Si on considère A le contour entre z-1 et z et B le contour entre z et z+1\\
+entre la couche Z-1 et z : contour de A extrudé, orienté vers l'exterieur\\
+à la couchc z : surface $A\backslash (A\cap B)$ orientée vers le haut et surface $B\backslash (A\cap B)$ orientée vers le bas.\\
+entre la couche z et z+1 : contour de B extrudé, orienté vers l'exterieur\\
+
 \begin{thebibliography}{1}
     \bibitem{key-1}William E. Lorensen et Harvey E.Cline. Marching Cubes:
     A High Resolution 3D Surface Construction Algorithm (août 1987).
