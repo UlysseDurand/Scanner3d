@@ -3,15 +3,15 @@ Projet de scanner 3d, un objet dont l'ombre est prise en photo sous plusieurs an
 Merci à Yann PROST, Loïc THOMAS et Gabin JOBERT-ROLLIN pour la partie conception materielle du scanner, acquisition d'image, et pré-traitement des données.
 Ceci est le fruit d'un projet de termunale de Sciences de l'ingénieur.
 
-Tout est expliqué ici : ![alt text](https://github.com/UlysseDurand/Scanner3d/blob/main/scanner3d/readme/beaudossier.pdf?raw=true)
+Tout est expliqué ici : ![document explicatif](https://github.com/UlysseDurand/Scanner3d/blob/main/readme/Scanner3D.pdf?raw=true)
 
-L'objet : ![alt text](https://github.com/UlysseDurand/Scanner3d/blob/main/scanner3d/readme/5.png?raw=true)
+L'objet : ![figure5](https://github.com/UlysseDurand/Scanner3d/blob/main/scanner3d/readme/figures/5.jpg?raw=true)
 
-L'entrée des programmes : ![alt text](https://github.com/UlysseDurand/Scanner3d/blob/main/scanner3d/readme/6.png?raw=true)
+L'entrée des programmes : ![figure6](https://github.com/UlysseDurand/Scanner3d/blob/main/scanner3d/readme/figures/6.jpg?raw=true)
 
-La sortie du programme 1 : ![alt text](https://github.com/UlysseDurand/Scanner3d/blob/main/scanner3d/readme/9.png?raw=true)
+La sortie du programme 1 : ![figure9](https://github.com/UlysseDurand/Scanner3d/blob/main/scanner3d/readme/figures/9.jpg?raw=true)
 
-L'entrée du programme 2 : ![alt text](https://github.com/UlysseDurand/Scanner3d/blob/main/scanner3d/readme/entree.gif?raw=true)
+L'entrée du programme 2 : ![entree.gif](https://github.com/UlysseDurand/Scanner3d/blob/main/readme/entree.gif?raw=true)
 
-La sortie du programme 2 : ![alt text](https://github.com/UlysseDurand/Scanner3d/blob/main/scanner3d/readme/sortie.gif?raw=true)
+La sortie du programme 2 : ![sortie.gif](https://github.com/UlysseDurand/Scanner3d/blob/main/readme/sortie.gif?raw=true)
 
